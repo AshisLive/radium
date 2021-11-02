@@ -1,0 +1,187 @@
+Hi its ASHUTOSH KUMAR_7068049973
+
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ mkdir assignment
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ mkdir source
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ mkdir destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ mkdir text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ rmdir text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ ls
+ass28.js     assgn27.js   demo.js       filename.txt  index.js   source/
+assgn_26.js  assignment/  destination/  filenmae.txt  sample.js
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ rmdir destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ rmdir source
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ ls
+ass28.js     assgn27.js   demo.js       filenmae.txt  sample.js
+assgn_26.js  assignment/  filename.txt  index.js
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node
+$ cd assignment
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ ls
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ mkdir destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ mkdir source
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ ls
+destination/  source/
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cd source
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ ls
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ mkdir text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ ls
+text.txt/
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ cat > text.txt
+bash: text.txt: Is a directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ rmdir text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ ls
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ touch text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ ls
+text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ cat > text.txt
+hi its functionup
+functionup is great
+functionup help us a lot 
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ cat text.txt
+hi its functionup
+functionup is great
+functionup help us a lot
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ cp text.txt destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/source
+$ cd ..
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cd destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ cp source/text.txt destination
+cp: cannot stat 'source/text.txt': No such file or directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ cd ..
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cp source/text.txt destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cd destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ rm - text.txt
+rm: cannot remove '-': No such file or directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ rm-text.txt
+bash: rm-text.txt: command not found
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ rm- text.txt
+bash: rm-: command not found
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ rm text.txt
+rm: cannot remove 'text.txt': No such file or directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ cp source/text.txt destination
+cp: cannot stat 'source/text.txt': No such file or directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ cd ..
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cp source/text.txt destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cd destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ rm text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ cd ..
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ mv source/text.txt destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment
+$ cd destination
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ grep -i 'finctionup' test.txt
+grep: test.txt: No such file or directory
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ ls
+text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ grep -i 'finctionup' text.txt
+
+ashuk@AshIsLiVe MINGW64 ~/OneDrive/Desktop/node/assignment/destination
+$ grep -i 'functionup' text.txt
+hi its functionup
+functionup is great
+functionup help us a lot
